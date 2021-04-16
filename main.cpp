@@ -5,6 +5,11 @@
 int main() {
     std::cout << "¿Cómo te llamas?" << std::endl;
     // Este es un comentario
+    /*
+     * Hola
+     * Hola
+     * Hola
+     * */
     std::string name;
     std::cin >> name;
 
