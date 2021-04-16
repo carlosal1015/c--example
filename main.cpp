@@ -6,6 +6,11 @@ int main() {
     std::cout << "¿Cómo te llamas?" << std::endl;
     // Este es un comentario
     /*
+     * Para compilar crea una carpeta build con mkdir build
+     * luego entra esa carpeta con cd build
+     * escribe cmake ..
+     * make
+     * ./tutorial
      * Hola
      * Hola
      * Hola
