@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /tmp/c--example/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/plantilla.dir/all
+all: CMakeFiles/plantillas2.dir/all
 
 .PHONY : all
 
@@ -83,36 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/plantilla.dir/clean
+clean: CMakeFiles/plantillas2.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/plantilla.dir
+# Target rules for target CMakeFiles/plantillas2.dir
 
 # All Build rule for target.
-CMakeFiles/plantilla.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantilla.dir/build.make CMakeFiles/plantilla.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantilla.dir/build.make CMakeFiles/plantilla.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/c--example/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target plantilla"
-.PHONY : CMakeFiles/plantilla.dir/all
+CMakeFiles/plantillas2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantillas2.dir/build.make CMakeFiles/plantillas2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantillas2.dir/build.make CMakeFiles/plantillas2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/c--example/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target plantillas2"
+.PHONY : CMakeFiles/plantillas2.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/plantilla.dir/rule: cmake_check_build_system
+CMakeFiles/plantillas2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/c--example/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/plantilla.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/plantillas2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/c--example/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/plantilla.dir/rule
+.PHONY : CMakeFiles/plantillas2.dir/rule
 
 # Convenience name for target.
-plantilla: CMakeFiles/plantilla.dir/rule
+plantillas2: CMakeFiles/plantillas2.dir/rule
 
-.PHONY : plantilla
+.PHONY : plantillas2
 
 # clean rule for target.
-CMakeFiles/plantilla.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantilla.dir/build.make CMakeFiles/plantilla.dir/clean
-.PHONY : CMakeFiles/plantilla.dir/clean
+CMakeFiles/plantillas2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantillas2.dir/build.make CMakeFiles/plantillas2.dir/clean
+.PHONY : CMakeFiles/plantillas2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -131,44 +131,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named plantilla
+# Target rules for targets named plantillas2
 
 # Build rule for target.
-plantilla: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plantilla
-.PHONY : plantilla
+plantillas2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plantillas2
+.PHONY : plantillas2
 
 # fast build rule for target.
-plantilla/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantilla.dir/build.make CMakeFiles/plantilla.dir/build
-.PHONY : plantilla/fast
+plantillas2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantillas2.dir/build.make CMakeFiles/plantillas2.dir/build
+.PHONY : plantillas2/fast
 
-plantilla.o: plantilla.cpp.o
+plantillas2.o: plantillas2.cpp.o
 
-.PHONY : plantilla.o
+.PHONY : plantillas2.o
 
 # target to build an object file
-plantilla.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantilla.dir/build.make CMakeFiles/plantilla.dir/plantilla.cpp.o
-.PHONY : plantilla.cpp.o
+plantillas2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantillas2.dir/build.make CMakeFiles/plantillas2.dir/plantillas2.cpp.o
+.PHONY : plantillas2.cpp.o
 
-plantilla.i: plantilla.cpp.i
+plantillas2.i: plantillas2.cpp.i
 
-.PHONY : plantilla.i
+.PHONY : plantillas2.i
 
 # target to preprocess a source file
-plantilla.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantilla.dir/build.make CMakeFiles/plantilla.dir/plantilla.cpp.i
-.PHONY : plantilla.cpp.i
+plantillas2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantillas2.dir/build.make CMakeFiles/plantillas2.dir/plantillas2.cpp.i
+.PHONY : plantillas2.cpp.i
 
-plantilla.s: plantilla.cpp.s
+plantillas2.s: plantillas2.cpp.s
 
-.PHONY : plantilla.s
+.PHONY : plantillas2.s
 
 # target to generate assembly for a file
-plantilla.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantilla.dir/build.make CMakeFiles/plantilla.dir/plantilla.cpp.s
-.PHONY : plantilla.cpp.s
+plantillas2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantillas2.dir/build.make CMakeFiles/plantillas2.dir/plantillas2.cpp.s
+.PHONY : plantillas2.cpp.s
 
 # Help Target
 help:
@@ -178,10 +178,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... plantilla"
-	@echo "... plantilla.o"
-	@echo "... plantilla.i"
-	@echo "... plantilla.s"
+	@echo "... plantillas2"
+	@echo "... plantillas2.o"
+	@echo "... plantillas2.i"
+	@echo "... plantillas2.s"
 .PHONY : help
 
 
