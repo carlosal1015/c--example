@@ -2,6 +2,18 @@
 #include <string>
 #include <vector>
 
+namespace spanish {
+    void saludo() {
+        std::cout << "Hola\n";
+    }
+}
+
+namespace english {
+    void saludo() {
+        std::cout << "Hello\n";
+    }
+}
+
 int main() {
     std::cout << "¿Cómo te llamas?" << std::endl;
     // Este es un comentario
@@ -31,6 +43,9 @@ int main() {
     {
         std::cout << u[i] << "\n";
     }
+
+    spanish::saludo();
+    english::saludo();
 
     return 0;
 }

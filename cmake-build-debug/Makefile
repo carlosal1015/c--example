@@ -131,44 +131,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named tutorial
+# Target rules for targets named plantilla
 
 # Build rule for target.
-tutorial: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorial
-.PHONY : tutorial
+plantilla: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plantilla
+.PHONY : plantilla
 
 # fast build rule for target.
-tutorial/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/build
-.PHONY : tutorial/fast
+plantilla/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantilla.dir/build.make CMakeFiles/plantilla.dir/build
+.PHONY : plantilla/fast
 
-main.o: main.cpp.o
+plantilla.o: plantilla.cpp.o
 
-.PHONY : main.o
+.PHONY : plantilla.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/main.cpp.o
-.PHONY : main.cpp.o
+plantilla.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantilla.dir/build.make CMakeFiles/plantilla.dir/plantilla.cpp.o
+.PHONY : plantilla.cpp.o
 
-main.i: main.cpp.i
+plantilla.i: plantilla.cpp.i
 
-.PHONY : main.i
+.PHONY : plantilla.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/main.cpp.i
-.PHONY : main.cpp.i
+plantilla.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantilla.dir/build.make CMakeFiles/plantilla.dir/plantilla.cpp.i
+.PHONY : plantilla.cpp.i
 
-main.s: main.cpp.s
+plantilla.s: plantilla.cpp.s
 
-.PHONY : main.s
+.PHONY : plantilla.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/main.cpp.s
-.PHONY : main.cpp.s
+plantilla.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantilla.dir/build.make CMakeFiles/plantilla.dir/plantilla.cpp.s
+.PHONY : plantilla.cpp.s
 
 # Help Target
 help:
@@ -178,10 +178,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... tutorial"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... plantilla"
+	@echo "... plantilla.o"
+	@echo "... plantilla.i"
+	@echo "... plantilla.s"
 .PHONY : help
 
 

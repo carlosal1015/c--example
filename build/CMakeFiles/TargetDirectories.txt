@@ -1,3 +1,0 @@
-/tmp/tutorial/build/CMakeFiles/rebuild_cache.dir
-/tmp/tutorial/build/CMakeFiles/edit_cache.dir
-/tmp/tutorial/build/CMakeFiles/tutorial.dir
