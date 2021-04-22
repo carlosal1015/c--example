@@ -1,4 +1,16 @@
-/home/carlosal1015/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /tmp/c--example
+/home/carlosal1015/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.6693.114/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /tmp/c--example
 -- Configuring done
--- Generating done
--- Build files have been written to: /tmp/c--example/cmake-build-debug
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Cannot find source file:
+
+    hello-world.cc
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .ispc
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  No SOURCES given to target: hello-world
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

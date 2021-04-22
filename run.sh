@@ -1,4 +1,8 @@
-mkdir -p build && cd build
+mkdir -p hello-world/build && cd hello-world/build
 cmake ..
 make
-./tutorial
+./classes
+./hello
+./namespaces
+./templatesv1
+./templatesv2
